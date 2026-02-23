@@ -1,0 +1,30 @@
+{
+    "wavelength": 365,
+    "NA": 0.55,
+    "partial_inner": 0.7,
+    "partial_outer": 0.9,
+    "n_wafer": 1,
+    "pupil_accuracy": 0.9,
+    "defocus_range": 600,
+    "dose_to_clear": 1,
+    "gamma": 2.5,
+    "dose_range": 0.2,
+    "ilt_dimen": [
+        4000,
+        4000
+    ],
+    "blank": 0,
+    "iterations": 1000,
+    "weights_update_frequency": 20,
+    "lr": 100,
+    "tv_weight_start": 0,
+    "tv_weight_end": 0.005,
+    "alpha_start": 0.1,
+    "alpha_end": 5,
+    "edge_weight_start": 0,
+    "edge_weight_end": 0.3,
+    "pattern_num_weights": 1e-08,
+    "output": "data/square_holes_partial_coherent",
+    "pixel_dimen": 10,
+    "device": "cuda"
+}
